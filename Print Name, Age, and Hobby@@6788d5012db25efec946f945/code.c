@@ -6,11 +6,11 @@ char* welcome() {
 
 int main() {
     char name[20];
-    scanf("%s",&name);
+    scanf("%s",name);
     int age;
     scanf("%d",&age);
     char hobby[20];
-    scanf("%s",&hobby);
+    scanf("%s",hobby);
     printf("Name: &s\nAge: %d\nHobby: &s",name,age,hobby);
     return 0;
 }
