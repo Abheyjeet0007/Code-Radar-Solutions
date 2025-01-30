@@ -9,7 +9,7 @@ int main() {
     pai = 3.14;
     float r;
     scanf("%f",&r);
-    float sum = p*r*r;
+    float sum = pai*r*r;
     printf("Area: %f",sum);
         return 0;
 }
