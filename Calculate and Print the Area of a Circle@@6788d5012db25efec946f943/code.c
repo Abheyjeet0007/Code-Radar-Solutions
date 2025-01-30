@@ -10,6 +10,6 @@ int main() {
     float r;
     scanf("%f",&r);
     float sum = pai*r*r;
-    printf("Area: %f",sum);
+    printf("Area: %.2f",sum);
         return 0;
 }
