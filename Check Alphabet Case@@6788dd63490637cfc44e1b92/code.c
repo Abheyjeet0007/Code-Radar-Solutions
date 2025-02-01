@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int c;
+    char c;
     scanf("%c",&c);
-    if(c<=97&&c>=122){
+    if(c<=A&&c>=Z){
         printf("Lowercase");
     }
     else{
