@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    scanf("%d%d",&a,&b);
+    scanf("%d",&a);
     if(a%3==0&&a%5==0){
         printf("Divisible by Both");
     }
