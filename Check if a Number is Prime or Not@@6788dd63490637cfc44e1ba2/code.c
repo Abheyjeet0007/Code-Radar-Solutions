@@ -8,7 +8,7 @@ int main() {
     int sum,count,number;
     scanf("%d",number);
     sum = 0;
-    count = 0
+    count = 0;
     if(number%number==1){
         count = 1;
     }
