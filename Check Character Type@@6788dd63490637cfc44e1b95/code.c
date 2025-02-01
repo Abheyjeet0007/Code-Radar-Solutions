@@ -11,7 +11,6 @@ int main() {
         printf("Vowel");
     }
 
-    }
     else if(c>='A'&&c<='Z'||c>='a'&&c<='z'){
         printf("Consonant");
     }
