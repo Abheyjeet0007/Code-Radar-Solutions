@@ -8,10 +8,10 @@ int main() {
     char c;
     scanf("%c",&c);
     if(c>='A'&&c<='Z'){
-        printf("Lowercase");
+        printf("Uppercase");
     }
     else{
-        printf("Uppercase");
+        printf("Lowercase");
     }
     return 0;
 }
