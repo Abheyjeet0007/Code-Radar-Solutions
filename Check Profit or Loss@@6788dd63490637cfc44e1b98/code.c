@@ -8,10 +8,10 @@ int main() {
     int a,b;
     scanf("%d",&a,&b);
     if(a<b){
-        printf("Profit");
+        printf("loss");
     }
     else{
-        printf("Loss");
+        printf("Profit");
     }
     return 0;
 }
