@@ -5,9 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    int age,status;
-    scanf("%d%d",&age&,&status);
-
+    int ag,sta;
+    scanf("%d%d",&ag&,&sta);
+    if(ag>=18 && sta == 1){
+        printf("Eligible");
+    }
     else{
         printf("Not Eligible");
     }
