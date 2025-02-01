@@ -13,7 +13,7 @@ int main() {
     else if(c>=0&&c<=9){
         printf("digit");
     }
-    else if(c>='A'&&a<='Z'||c>='a'&&a<='z'){
+    else if(c>='A'&&c<='Z'||c>='a'&&c<='z'){
         printf("Constant");
     }
     else{
