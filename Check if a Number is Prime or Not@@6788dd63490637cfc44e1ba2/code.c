@@ -11,6 +11,15 @@ int main() {
         printf("Not Prime");
         return 0;
     }
-    
+    for(int i = 1;i<=number;i++){
+        count++
+
+    }
+    if(count == 2){
+        printf("Prime");
+    }
+    else{
+        printf("Not Prime");
+    }
     return 0;
 }
