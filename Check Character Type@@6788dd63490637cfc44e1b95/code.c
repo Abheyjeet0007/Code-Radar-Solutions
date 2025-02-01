@@ -14,7 +14,7 @@ int main() {
         printf("digit");
     }
     else if(c>='A'&&c<='Z'||c>='a'&&c<='z'){
-        printf("Constant");
+        printf("Consonant");
     }
     else{
         printf("Special Character");
