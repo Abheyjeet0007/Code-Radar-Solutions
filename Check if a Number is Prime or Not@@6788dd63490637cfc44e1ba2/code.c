@@ -13,7 +13,7 @@ int main() {
         printf("Not Prime")
         return 0;
     }
-    else{
+    
     for(int i = 1;i<=number;i++){
 
     
@@ -27,6 +27,6 @@ int main() {
     else{
         printf("Not Prime");
     }
-    }
+    
     return 0;
 }
