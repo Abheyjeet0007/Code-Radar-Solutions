@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int c;
-    scanf("%d",&c);
+    scanf("%c",&c);
     if(c<=97&&c>=122){
         printf("Lowercase");
     }
