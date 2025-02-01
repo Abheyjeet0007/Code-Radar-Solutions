@@ -10,7 +10,9 @@ int main() {
     if(a>0){
         printf("Positive");
     }
-    
+    else if(b<0){
+        printf("Negative");
+    }
     else{
         printf("Zero");
     }
