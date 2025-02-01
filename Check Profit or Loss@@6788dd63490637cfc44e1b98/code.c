@@ -8,7 +8,7 @@ int main() {
     int a,b;
     scanf("%d",&a,&b);
     if(a<b){
-        printf("loss");
+        printf("Loss");
     }
     else{
         printf("Profit");
