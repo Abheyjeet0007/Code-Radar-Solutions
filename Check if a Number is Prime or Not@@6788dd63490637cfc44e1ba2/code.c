@@ -12,7 +12,7 @@ int main() {
         return 0;
     }
     for(int i = 1;i<=number;i++){
-        count++
+        count++;
 
     }
     if(count == 2){
