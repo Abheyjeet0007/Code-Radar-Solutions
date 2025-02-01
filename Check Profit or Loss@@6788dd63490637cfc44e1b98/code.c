@@ -8,10 +8,10 @@ int main() {
     int buying,selling;
     scanf("%d",&buying,&selling);
     if(buying<selling){
-        printf("Profit");
+        printf("Loss");
     }
     else if(buying>selling){
-        printf("Loss");
+        printf("Profit");
     }
     else if(buying=selling){
         printf("No Profit No Loss");
