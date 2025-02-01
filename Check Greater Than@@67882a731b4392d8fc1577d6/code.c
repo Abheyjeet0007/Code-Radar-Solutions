@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    float a,b;
+    int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
     if(a>=b){
