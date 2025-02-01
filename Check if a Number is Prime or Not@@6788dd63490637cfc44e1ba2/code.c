@@ -9,8 +9,12 @@ int main() {
     scanf("%d",&number);
     sum = 0;
     count = 0;
-    if(number%number==1){
+    for(int i = 0;i<=number;i++){
+
+    
+    if(number%i==1){
         count = 1;
+    }
     }
     if(count==1){
         printf("Prime");
