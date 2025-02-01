@@ -15,7 +15,7 @@ int main() {
     struct Vehicle vehicles[N];
     float c_ttl = 0,t_ttl = 0 , b_ttl = 0;
     for (int i = 0; i<N;i++){
-        scanf("%s%s%f",vehiles[i].number,vehicles[i].type,&vehicles[i].toll);
+        scanf("%s%s%f",vehicles[i].number,vehicles[i].type,&vehicles[i].toll);
 
         if (strcmp(vehicles [i].type,"Car")==0){
             c_ttl += vehicles[i].toll;
