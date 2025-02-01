@@ -22,7 +22,7 @@ int main() {
             c_ttl += vehicles[i].toll;
 
         }
-        else if(strcmp(vehicles[i].type,"truck")==0){
+        else if(strcmp(vehicles[i].type,"Truck")==0){
             t_ttl +=vehicles[i].toll;
         }
 
@@ -30,6 +30,6 @@ int main() {
             b_ttl +=vehicles[i].toll;
         }
     }
-    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n"c_ttl,t_ttl,b_ttl);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f"c_ttl,t_ttl,b_ttl);
     return 0;
 }
