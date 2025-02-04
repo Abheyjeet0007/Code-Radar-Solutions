@@ -14,6 +14,9 @@ int main() {
             
             printf("*");
             }
+            else if(j==n||j==1){
+                printf("*");
+            }
         }
         printf("\n");
     }
