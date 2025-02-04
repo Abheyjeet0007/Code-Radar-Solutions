@@ -24,6 +24,7 @@ int main() {
         else{
             a=1;
         }
+        printf("\n");
     }
    }
     return 0;
