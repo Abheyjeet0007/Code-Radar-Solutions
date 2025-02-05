@@ -14,11 +14,11 @@ int main() {
             printf(" ");
         }
         for(int k = 1;k<=a;k++){
-            printf("%d ",b);
+            printf("%d",b);
             b++;
 
         }  
-    a = a+2;
+    a = a+1;
     printf("\n");
     }
         return 0;
