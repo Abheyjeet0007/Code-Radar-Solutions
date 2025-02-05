@@ -14,8 +14,8 @@ int main() {
             printf(" ");
         }
         for(int k = 1;k<=a;k++){
-            printf("%d"b);
-            b++;
+            printf("%d",b);
+                b++;
 
         }   
         a = a+2;
