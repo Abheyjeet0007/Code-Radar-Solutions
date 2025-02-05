@@ -18,8 +18,8 @@ int main() {
             b++ 
 
         }  
-        a = a+2;
-        printf("\n");
-        }
+    a = a+2;
+    printf("\n");
+    }
         return 0;
 }
