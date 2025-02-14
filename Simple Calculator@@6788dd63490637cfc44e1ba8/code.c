@@ -1,11 +1,11 @@
 // Your code here...
-#include <stdio.h>
+#include<stdio.h>
 int main(){
 
 
     int n,m;
     char c;
-    float a = n/m;
+    int a = n/m;
     int b = n*m;
     int c = n+m;
     int d = n-m;
