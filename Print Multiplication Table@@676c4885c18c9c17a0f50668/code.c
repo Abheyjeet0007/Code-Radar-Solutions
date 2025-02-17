@@ -8,7 +8,8 @@ int main() {
     int N;
     scanf("%d",&N);
     for(int i = 1;i<=10;i++){
-        printf("%d x %d = %d",n,i,n*i);
+        int sum = n*i;
+        printf("%d x %d = %d",n,i,sum);
     }
     return 0;
 }
