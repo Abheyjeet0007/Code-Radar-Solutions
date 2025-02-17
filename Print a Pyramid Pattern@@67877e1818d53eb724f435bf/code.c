@@ -16,7 +16,7 @@ int main(){
             printf("*");
             a = a+2;
         }
-    }
+    
     return 0;
 }
 
