@@ -17,9 +17,9 @@ int main() {
         }
         for(int l = 1;l<=i-1;l++){
             printf("%d",a);
-            a--;
+            a = i;
         }
-            a++;
+            
         printf("\n");
     }
     return 0;
