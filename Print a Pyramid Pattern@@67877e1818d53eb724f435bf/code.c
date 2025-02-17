@@ -16,7 +16,8 @@ int main(){
             printf("*");
             a = a+2;
         }
-    
+        printf("\n");
+    }
     return 0;
 }
 
