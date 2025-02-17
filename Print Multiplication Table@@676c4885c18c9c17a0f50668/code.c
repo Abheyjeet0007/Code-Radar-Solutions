@@ -10,7 +10,7 @@ int main() {
     for(int i = 1;i<=10;i++){
         int sum = N*i;
         printf("%d x %d = %d",N,i,N*i);
-    }
     printf("\n");
+    }
     return 0;
 }
