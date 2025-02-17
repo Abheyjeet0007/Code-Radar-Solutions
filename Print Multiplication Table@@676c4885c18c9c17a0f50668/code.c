@@ -11,5 +11,6 @@ int main() {
         int sum = N*i;
         printf("%d x %d = %d",N,i,N*i);
     }
+    printf("\n");
     return 0;
 }
