@@ -14,7 +14,7 @@ int main() {
         int a = 1;
         for(int k = 1;k<=a;k++){
             printf("*");
-            a = a+2
+            a = a+2;
         }
     }
     return 0;
