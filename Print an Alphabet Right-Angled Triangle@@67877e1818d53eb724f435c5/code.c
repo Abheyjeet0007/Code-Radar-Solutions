@@ -13,6 +13,7 @@ int main() {
             printf("%c",a);
             a++;
         }
+        printf("\n");
     }
     return 0;
 }
