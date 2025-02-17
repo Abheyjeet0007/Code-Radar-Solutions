@@ -8,6 +8,9 @@ int main (){
         for(int k = 1; k<=n;k++){
             printf("*");
         }
+        if(k==n-1){
+            printf(" ");
+        }
         
     printf("\n");
     }
