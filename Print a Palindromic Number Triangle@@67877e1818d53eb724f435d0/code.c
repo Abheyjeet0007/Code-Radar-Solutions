@@ -15,17 +15,13 @@ int main() {
         for(int k = 1; k<=i;k++){
             printf("%d",k);
         }
-        // for(int l = i;l>=1;l--){
-        //     printf("%d",l);
+        for(int l = i;l>=1;l--){
+            printf("%d",l);
             
-        // }
+        }
             
         printf("\n");
     }
     return 0;
 }
-   1
-  121
- 12321
-1234321
 
