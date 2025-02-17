@@ -13,9 +13,10 @@ int main() {
         }
         int a = 1;
         for(int k = 1;k<=2*i-1;k++){
-            printf("%d",a);
+            printf("%d ",a);
             a++;
         }
+        printf("\n");
     }
     int a = 1;
     return 0;
