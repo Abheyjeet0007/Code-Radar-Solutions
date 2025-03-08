@@ -1,6 +1,6 @@
 #include <stdio.h>
 int prime(int x){
-    sum = 0;
+    int sum = 0;
     for(int i = 2;i<x;i++){
         if(x%i==0){
             sum=1;
