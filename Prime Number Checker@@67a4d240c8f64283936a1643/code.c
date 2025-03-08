@@ -18,7 +18,8 @@ int prime(int x){
 int main(){
     int a;
     scanf("%d",&a);
-    int x = prime(a);}
-    return 0;
+    int x = prime(a);
 
+    return 0;
+}
 }
