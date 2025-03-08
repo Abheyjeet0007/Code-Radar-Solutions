@@ -5,7 +5,7 @@ int isPrime(int x){
         if(x%i==0){
             sum=1;
         }
-
+    }
     return sum; 
     
 }
