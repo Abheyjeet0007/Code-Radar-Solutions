@@ -18,3 +18,4 @@ int main() {
     printf("%d\n", isprime(num));
     return 0;
 }
+
