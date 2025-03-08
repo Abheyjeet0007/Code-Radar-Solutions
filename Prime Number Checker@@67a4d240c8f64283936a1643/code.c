@@ -19,7 +19,7 @@ int isprime(int x){
 int main(){
     int num;
     scanf("%d",&num);
-    printf("%d\n",isprime(num));
+    isprime(num);
 
     return 0;
 
