@@ -11,8 +11,9 @@ int isPrime(int x){
     else{
         printf("0");
     }
-    return sum; 
     }
+    return sum; 
+    
 }
 int main(){
     int t;
