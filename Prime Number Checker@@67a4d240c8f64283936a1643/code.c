@@ -11,7 +11,7 @@ int isprime(int x){
     else{
         printf("0");
     }
-        
+    return sum; 
     }
 
 
