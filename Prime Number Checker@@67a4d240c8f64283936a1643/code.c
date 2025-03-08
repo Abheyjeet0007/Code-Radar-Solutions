@@ -14,8 +14,6 @@ int isprime(int x){
     return sum; 
     }
 }
-
-
 int main(){
     int num;
     scanf("%d",&num);
