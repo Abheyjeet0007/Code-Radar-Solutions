@@ -13,6 +13,7 @@ int isprime(int x){
     }
     return sum; 
     }
+}
 
 
 int main(){
@@ -21,5 +22,5 @@ int main(){
     printf("%d\n",isprime(num));
 
     return 0;
-}
+
 }
