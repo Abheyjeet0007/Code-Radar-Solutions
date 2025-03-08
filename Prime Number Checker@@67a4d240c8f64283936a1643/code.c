@@ -5,13 +5,7 @@ int isPrime(int x){
         if(x%i==0){
             sum=1;
         }
-    if(sum = 1){
-        printf("1");
-    }
-    else{
-        printf("0");
-    }
-    }
+
     return sum; 
     
 }
