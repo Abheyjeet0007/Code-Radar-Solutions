@@ -7,7 +7,7 @@ int main(){
     char c;
     int a = n/m;
     int b = n*m;
-    int c = n+m;
+    int e = n+m;
     int d = n-m;
     scanf("%d %d %c",&n,&m,&c);
     if(c=='*'){
@@ -17,7 +17,7 @@ int main(){
         printf("%d",a);
     }
     else if(c == '+'){
-        printf("%d",c);
+        printf("%d",e);
     }
     else if(c == '-'){
         printf("%d",d);
