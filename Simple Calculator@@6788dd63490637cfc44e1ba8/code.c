@@ -5,12 +5,12 @@ int main(){
 
     int n,m;
     char c;
+    scanf("%d %d %c",&n,&m,&c);
     
     int a = n/m;
     int b = n*m;
     int e = n+m;
     int d = n-m;
-    scanf("%d %d %c",&n,&m,&c);
     if(c=='*'){
         printf("%d",b);
     }
