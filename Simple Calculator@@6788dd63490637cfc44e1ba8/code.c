@@ -5,10 +5,7 @@ int main(){
     char c;
 
     
-    int k = n/m;
-    int l = n*m;
-    int o = n+m;
-    int p = n-m;
+
     scanf("%d %d %c",&n,&m,&c);
     int a = n/m;
     int b = n*m;
