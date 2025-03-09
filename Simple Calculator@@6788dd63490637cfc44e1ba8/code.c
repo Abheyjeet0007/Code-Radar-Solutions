@@ -7,8 +7,8 @@ int main(){
     
     int k = n/m;
     int l = n*m;
-    int m = n+m;
-    int n = n-m;
+    int o = n+m;
+    int p = n-m;
     scanf("%d %d %c",&n,&m,&c);
     int a = n/m;
     int b = n*m;
