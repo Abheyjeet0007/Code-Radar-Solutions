@@ -1,12 +1,12 @@
 #include <stdio.h>
-int isPrime(int x){
+void isPrime(int x){
     int sum = 0;
     for(int i = 2;i<x;i++){
         if(x%i==0){
             sum=1;
         }
     }
-    return sum; 
+
     
 }
 int main() {
