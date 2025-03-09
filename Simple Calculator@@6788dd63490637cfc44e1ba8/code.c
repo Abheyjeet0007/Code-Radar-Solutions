@@ -1,11 +1,9 @@
 // Your code here...
 #include<stdio.h>
+
 int main(){
     int n,m;
     char c;
-
-    
-
     scanf("%d %d %c",&n,&m,&c);
     int a = n/m;
     int b = n*m;
