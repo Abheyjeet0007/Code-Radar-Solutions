@@ -5,10 +5,10 @@ int main(){
     char c;
 
     
-    int a = n/m;
-    int b = n*m;
-    int e = n+m;
-    int d = n-m;
+    int k = n/m;
+    int l = n*m;
+    int m = n+m;
+    int n = n-m;
     scanf("%d %d %c",&n,&m,&c);
     int a = n/m;
     int b = n*m;
