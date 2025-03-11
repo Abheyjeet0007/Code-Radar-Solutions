@@ -6,5 +6,4 @@ int printPrimesInRange(int a,int b){
         
             }
         }
-    }
-}
+    
