@@ -7,16 +7,16 @@ int main(){
     scanf("%d %d %c",&n,&m,&c);
 
     if(c=='*'){
-        printf("%d",b);
+        printf("%d",a*b);
     }
     else if(c == '/'){
-        printf("%d",a);
+        printf("%d",a/b);
     }
     else if(c == '+'){
-        printf("%d",e);
+        printf("%d",a+b);
     }
     else if(c == '-'){
-        printf("%d",d);
+        printf("%d",a-b);
     }
     return 0;
 }
