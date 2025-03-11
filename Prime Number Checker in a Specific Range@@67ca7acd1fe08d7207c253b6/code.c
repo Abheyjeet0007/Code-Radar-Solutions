@@ -1,5 +1,5 @@
 int printPrimesInRange(int x,int y){
-        for(int i =2;i<=y;i++){
+        for(int i =2;i<=100;i++){
             if(y%i==1){
                 return 0;
             }
