@@ -8,10 +8,7 @@ int printPrimesInRange(int x,int y){
             }
         
         }
-        for(int j=x;j<=y;j++){
-            if(printPrimesInRange(j)){
-                printf("%d",j);
-            }
+
         }
-        }
+        
    
