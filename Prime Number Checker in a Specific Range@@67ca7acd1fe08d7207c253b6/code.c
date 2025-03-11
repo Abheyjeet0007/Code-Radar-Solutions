@@ -1,5 +1,10 @@
 int printPrimeInRange(int a,int b){
     for(int i = a;i<=b;i++){
-        printf("%d",i);
+        for(int j =2;j<i;j++){
+            if(i%j!=0){
+                printf("%d ",j);
+        
+            }
+        }
     }
 }
