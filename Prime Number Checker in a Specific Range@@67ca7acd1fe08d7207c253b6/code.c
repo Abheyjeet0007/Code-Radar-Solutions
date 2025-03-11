@@ -1,3 +1,4 @@
+#include <stdio.h>
 int printPrimeInRange(int a,int b){
     for(int i = a;i<=b;i++){
         for(int j =2;j<i;j++){
