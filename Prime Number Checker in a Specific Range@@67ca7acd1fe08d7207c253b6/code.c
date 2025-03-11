@@ -1,11 +1,12 @@
 #include <stdio.h>
-int printPrimesInRange(int a,int b){
-    int n = b;
-    if(a<=0){
-        a = 2;
+int printPrimesInRange(int n,){
+    if(n<=1){
+        return 0;
     }
-    for(int i = a;i<=b;i++){
-            printf("%d ",i);
+    for(int i = 2;i<=n;i++){
+            if(n%i==0){
+                printf("%d",n);
+            }
             
         
             }
