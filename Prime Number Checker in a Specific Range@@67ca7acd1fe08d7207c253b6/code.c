@@ -4,16 +4,10 @@ int printPrimesInRange(int x,int y){
                 return 0;
             }
             else{
-                return 1;
+                printf("%d",i);
             }
         
         }
+                
 
         }
-int main(){       
-        for(int j=x;j<=y;j++){
-            if(printPrimesInRange(j)){
-                printf("%d",j);
-            }
-        }
-}
