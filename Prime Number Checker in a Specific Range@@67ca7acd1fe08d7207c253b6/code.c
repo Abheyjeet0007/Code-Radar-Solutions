@@ -4,13 +4,11 @@ int printPrimesInRange(int a,int b){
         a = 2;
     }
     for(int i = a;i<=b;i++){
-            for(int j =a;j<i;j++){
-                if(j%i!=0){
 
                 printf("%d ",i);
                 }
-            }
+            
         
             }
-        }
+        
     
