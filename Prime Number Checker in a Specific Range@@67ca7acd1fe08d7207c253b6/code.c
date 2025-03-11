@@ -1,5 +1,5 @@
 #include <stdio.h>
-int printPrimesInRange(int n,m){
+int printPrimesInRange(int n,int m){
     if(n<=1){
         return 0;
     }
