@@ -1,6 +1,6 @@
-int printPrimesInRange(int x,int y){
-        for(int i =2;i<=100;i++){
-            if(y%i==1){
+int printPrimesInRange(int x){
+        for(int i =2;i< x;i++){
+            if(x%i==1){
                 return 0;
             }
             else{
