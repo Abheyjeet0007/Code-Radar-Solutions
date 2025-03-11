@@ -10,10 +10,10 @@ int printPrimesInRange(int x,int y){
         }
 
         }
-        
+int main(){       
         for(int j=x;j<=y;j++){
             if(printPrimesInRange(j)){
                 printf("%d",j);
             }
         }
-   
+}
