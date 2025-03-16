@@ -8,7 +8,7 @@ int printPrime(int x){
         return 0;
     }
     else if(x==0||x==1){
-        printf("No prime numbers")
+        printf("No prime numbers");
     }
     for(int i = 2;i<x;i++){
         if(x%i==0){
