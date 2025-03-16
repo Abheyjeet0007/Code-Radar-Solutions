@@ -5,6 +5,7 @@
 
 int printPrime(int x){
     if(x<=1){
+        printf("No prime numbers")
         return 0;
     }
     for(int i = 2;i<x;i++){
