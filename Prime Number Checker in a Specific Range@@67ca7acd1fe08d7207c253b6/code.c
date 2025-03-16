@@ -20,7 +20,7 @@ int printPrime(int x){
 void printPrimesInRange(int x,int y){
     int count = 0;
 
-    }
+    
     for(int j=x;j<=y;j++){
         if(printPrime(j)){
         printf("%d ",j);
@@ -33,6 +33,7 @@ void printPrimesInRange(int x,int y){
     }
 
 
+    }
 }
 
    
