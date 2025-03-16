@@ -1,7 +1,7 @@
 int printPrime(int x){
     int a = 0;
     for(int i = 2;i<x;i++){
-        if(n%i!=0){
+        if(n%i==0){
             printf("%d",i); 
         }
     }
