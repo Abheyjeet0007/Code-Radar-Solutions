@@ -26,11 +26,11 @@ void printPrimesInRange(int x,int y){
         printf("%d ",j);
         count++;
         
-        
+        }
     }
     if(count == 0){
         printf("No prime numbers");
-    }
+    
 
 
     }
