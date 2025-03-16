@@ -23,10 +23,10 @@ void printPrimesInRange(int x,int y){
     for(int j=x;j<=y;j++){
         if(printPrime(j)){
         printf("%d ",j);
+    }
         else if(x==y){
             printf("No prime numbers");
         }
-    }
 
 
 }
