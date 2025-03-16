@@ -17,14 +17,19 @@ int printPrime(int x){
     
 } 
 void printPrimesInRange(int x,int y){
+    int count = 0;
     if(x==0 ||y==1){
         printf("No prime numbers");
     }
     for(int j=x;j<=y;j++){
         if(printPrime(j)){
         printf("%d ",j);
+        count++;
     }
         else if(x==y){
+            printf("No prime numbers");
+        }
+        else if(count == 0){
             printf("No prime numbers");
         }
 
