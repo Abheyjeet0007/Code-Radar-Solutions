@@ -24,9 +24,7 @@ void printPrimesInRange(int x,int y){
         if(printPrime(j)){
         printf("%d ",j);
     }
-    else{
-        printf("No prime numbers");
-    }
+
 }
 }
         
