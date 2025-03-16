@@ -1,15 +1,25 @@
+#include<stdio.h>
+
+
+
+
 int printPrime(int x){
-    int a = 0;
+    if(x<=1){
+        return 0;
+    }
     for(int i = 2;i<x;i++){
-        if(x%i!=0){
-            printf("%d",i); 
+        if(x%i==0){
+            return 0; 
         }
+        return 1;
     }
-    return i;
+    
 } 
-int printprimesInRange(int x,int y){
-    for(int i=x;i<=y;i++){
-        printf(printPrime(i));
+void printprimesInRange(int x,int y){
+    for(int j=x;j<=y;j++){
+        if(printPrime(j)){
+        printf("%d ",j);
     }
+}
 }
         
