@@ -5,7 +5,7 @@ int printPrime(int x){
             printf("%d",i); 
         }
     }
-    return;
+    return 0;
 } 
 int printprimesInRange(int x,int y){
     for(int i=x;i<=y;i++){
