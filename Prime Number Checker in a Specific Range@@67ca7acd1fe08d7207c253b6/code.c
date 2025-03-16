@@ -15,7 +15,7 @@ int printPrime(int x){
     }
     
 } 
-void printprimesInRange(int x,int y){
+void printPrimesInRange(int x,int y){
     for(int j=x;j<=y;j++){
         if(printPrime(j)){
         printf("%d ",j);
