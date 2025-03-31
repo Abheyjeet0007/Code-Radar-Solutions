@@ -18,7 +18,7 @@
             if(visited[i]=1){ 
                 continue;
             }            
-            int count = 0;
+            int count = 1;
             for(int j =i+1; i<n;j++)
             if(arr[i] == arr[j])
             {
