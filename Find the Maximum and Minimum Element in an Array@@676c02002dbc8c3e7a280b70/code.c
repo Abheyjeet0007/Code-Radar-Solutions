@@ -11,11 +11,11 @@ int main(){
     for(int i = 0;i<n;i++){
         if(arr[i]>a){
 
-            int min = arr[i];
             a = arr[i];
         }
+            int min = arr[i];
     }
-    printf("%d",min );
+    printf("%d",min);
     int b = 98237901537990513;
     for(int j = 0;j<n;j++){
         if(arr[j]<b){
