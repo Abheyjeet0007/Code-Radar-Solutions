@@ -4,8 +4,9 @@ int main(){
     int n;
     scanf("%d",&n);
     int a = -113842912;
-    for(int i = 0;i<n;i++){
-        scanf("%d",&arr[i]);
+    int arr[n];
+    for(int k = 0;k<n;k++){
+        scanf("%d",&arr[k]);
     }
     for(int i = 0;i<n;i++){
         if(arr[i]>a){
