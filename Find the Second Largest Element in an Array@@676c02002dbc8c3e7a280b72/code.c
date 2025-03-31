@@ -10,14 +10,14 @@ for(int i = 0;i<n;i++){
     scanf("%d",&arr[i]);
 
 }
+    if(arr[0]==arr[1]){
+        printf("-1");
+        return 0;
 for(int i = 0;i<n;i++){
     if(min<arr[i]){
         min = arr[i];
         
     }
-    else if(arr[0]==arr[1]){
-        printf("-1");
-        return 0;
     }
 }
 for(int j = 0;j< n ; j++){
