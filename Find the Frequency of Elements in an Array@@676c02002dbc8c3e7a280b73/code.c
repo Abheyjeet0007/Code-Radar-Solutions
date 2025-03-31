@@ -8,7 +8,7 @@
         for(int i = 0;i<n;i++){
             scanf("%d",&arr[i]);
         }
-        int visited[n]
+        int visited[n];
         for(int i = 0;i<n;i++){
             visited[i]=0;
         }
