@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int min = INT(min);
+    int min = INT_min;
     int arr[n];
     for(int k = 0;k<n;k++){
         scanf("%d",&arr[k]);
