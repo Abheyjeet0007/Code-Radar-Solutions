@@ -7,6 +7,7 @@ if(n==1){
     printf("-1");
     return 0;
 }
+else{
 int arr[n];
 int min = INT_MIN;
 int min1 = INT_MIN;
@@ -38,4 +39,5 @@ for(int j = 0;j< n ; j++){
 }
     printf("%d",min1);
 return 0;
+}
 }
