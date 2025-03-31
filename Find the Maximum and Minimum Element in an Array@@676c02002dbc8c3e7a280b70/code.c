@@ -15,7 +15,7 @@ int main(){
             a = arr[i];
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",min );
     int b = 98237901537990513;
     for(int j = 0;j<n;j++){
         if(arr[j]<b){
