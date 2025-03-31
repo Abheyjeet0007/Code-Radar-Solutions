@@ -2,8 +2,8 @@
 void reverse(int arr[],int str,int end){
     for(int i = str,j=end;i<j;i++,j--){
         int temp = arr[i];
-        int arr[i]= arr[j];
-        int arr[j]=arr[i];
+        arr[i]= arr[j];
+        arr[j]=arr[i];
     }
 }
 int main(){
