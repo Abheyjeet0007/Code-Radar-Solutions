@@ -15,8 +15,8 @@
 
         for(int i=0;i<n;i++)
         {   
-            if(visited[i]==0){            
             int count = 1;
+            if(visited[i]==0){            
             for(int j =i+1; j<n;j++){
                 if(arr[i] == arr[j])
                 {
