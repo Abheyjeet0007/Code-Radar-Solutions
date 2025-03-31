@@ -14,7 +14,7 @@
             for(int j = i+1;j<n;j++){
                 if(arr[i]==arr[j]){
                     temp = arr[i];
-                    a++;
+                    a+=1;
                 }
             }
             printf("%d %d\n",temp,a );
