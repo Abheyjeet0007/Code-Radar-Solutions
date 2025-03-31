@@ -23,7 +23,7 @@
             if(arr[i] == arr[j])
             {
                 count++;
-                visited[j]=0;
+                visited[j]=1;
             }
             printf("%d %d\n", arr[i], count);
         }
