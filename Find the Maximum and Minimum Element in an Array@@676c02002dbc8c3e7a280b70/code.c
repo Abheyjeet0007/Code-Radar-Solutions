@@ -16,11 +16,11 @@ int main(){
             
     }
     printf("%d",min);
-    int b = 98237901537990513;
+    int max = INT_MAX;
     for(int j = 0;j<n;j++){
-        if(arr[j]<b){
-            int max =  arr[j];
+        if(arr[j]<max){
             b = arr[j];
+            int max =  arr[j];
         }
     }
     printf("%d",arr[j]);
