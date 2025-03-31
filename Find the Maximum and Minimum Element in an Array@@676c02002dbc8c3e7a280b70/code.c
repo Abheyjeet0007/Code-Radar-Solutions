@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include<limits.h>
 int main(){
     int n;
     scanf("%d",&n);
-    int min = -113842912;
+    int min = INT(min);
     int arr[n];
     for(int k = 0;k<n;k++){
         scanf("%d",&arr[k]);
