@@ -16,16 +16,16 @@ int main(){
         scanf("%d",&arr[i]);
     }
     
-    int x;
+    int k;
     
-    scanf("%d",&x);
-    if(x==n){
+    scanf("%d",&k);
+    if(k==n){
         for(int i = 0;i<n;i++){
             printf("%d ",arr[i]);
         }
     }
-    else if(x>n){
-        x=x%n;
+    else if(k>n){
+        k=k%n;
     
     
  
