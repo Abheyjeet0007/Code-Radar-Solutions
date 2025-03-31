@@ -20,7 +20,7 @@ int main(){
     
     scanf("%d",&x);
     if(x==n){
-        for(int i = 0;i<7;i++){
+        for(int i = 0;i<n;i++){
             printf("%d ",arr[i]);
         }
     }
