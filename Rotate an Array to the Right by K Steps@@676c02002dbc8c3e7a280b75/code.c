@@ -17,6 +17,6 @@ int main(){
 
     }
     scanf("%d",&k);
-    reverse(arr[n],k,n);
+    reverse(arr[n],k,n-1);
 
 }
