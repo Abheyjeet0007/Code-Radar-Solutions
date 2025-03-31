@@ -14,7 +14,7 @@ int main(){
             break;
 
         }
-        else if(arr[i]==arr[i+1]){
+        else if(i==n-1||arr[i]==arr[i+1]){
             printf("-1");
         }
     }
