@@ -1,5 +1,5 @@
 #include<stdio.h>
-#inlcude<limits.h>
+#include<limits>.h
 int n;
 scanf("%d",&n);
 int arr[n];
