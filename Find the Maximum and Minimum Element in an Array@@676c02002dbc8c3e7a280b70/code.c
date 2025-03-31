@@ -19,7 +19,7 @@ int main(){
     int max = INT_MAX;
     for(int j = 0;j<n;j++){
         if(arr[j]<max){
-            b = arr[j];
+            max = arr[j];
             int max =  arr[j];
         }
     }
