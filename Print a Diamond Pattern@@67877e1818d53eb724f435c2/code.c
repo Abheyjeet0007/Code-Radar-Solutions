@@ -17,10 +17,10 @@ int main() {
         }
     printf("\n");
     }
-    for(int i = n;n>i;i--){
-        for(int j = 1;j<=j*2-1;j++){
-            printf("*");
-        }
-    }
+    // for(int i = n;n>i;i--){
+    //     for(int j = 1;j<=j*2-1;j++){
+    //         printf("*");
+    //     }
+    // }
     return 0;
 }
