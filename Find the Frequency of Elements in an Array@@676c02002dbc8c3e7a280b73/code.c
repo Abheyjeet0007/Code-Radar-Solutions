@@ -8,15 +8,23 @@
         for(int i = 0;i<n;i++){
             scanf("%d",&arr[i]);
         }
+        int visited[n]
         for(int i = 0;i<n;i++){
-        int temp;
-        int a = 0;
-            for(int j = 0;j<n;j++){
-                if(arr[i]==arr[j] && i!=j){
-                    temp = arr[i];
-                    a+=1;
-                }
+            visited[i]=0;
+        }
+
+        for(int i=0;i<n;i++)
+        {   
+            if(visited[i]=1){ 
+                continue;
+            }            
+            int count = 0;
+            for(int j =i+1; i<n;j++)
+            if(arr[i] == arr[j])
+            {
+                count++;
+                visited[j]=0;
             }
-            printf("%d %d\n",temp,a );
+            printf("%d %d\n", arr[i], count);
         }
     }
