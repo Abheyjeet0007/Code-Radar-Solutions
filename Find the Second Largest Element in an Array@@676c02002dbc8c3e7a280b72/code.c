@@ -3,6 +3,10 @@
 int main(){
 int n;
 scanf("%d",&n);
+if(n==1){
+    printf("-1");
+    return 0;
+}
 int arr[n];
 int min = INT_MIN;
 int min1 = INT_MIN;
@@ -11,12 +15,9 @@ for(int i = 0;i<n;i++){
 
 }
 for(int i = 0;i<n-1;i++){
-    if(n==1){
-        printf("-1");
-        return 0;
-    }
 
-    else if(arr[i]==arr[n-1]){
+
+    if(arr[i]==arr[n-1]){
         printf("-1");
         return 0;
     }
