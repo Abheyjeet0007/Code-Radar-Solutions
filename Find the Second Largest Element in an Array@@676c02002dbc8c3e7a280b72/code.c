@@ -16,12 +16,12 @@ for(int i = 0;i<n-1;i++){
         return 0;
     }
 }
-for(int i = 0;i<n;i++){
-    if(min<arr[i]){
-        min = arr[i];
+// for(int i = 0;i<n;i++){
+//     if(min<arr[i]){
+//         min = arr[i];
         
-    }
-    }
+//     }
+//     }
  
 for(int j = 0;j< n ; j++){
 
