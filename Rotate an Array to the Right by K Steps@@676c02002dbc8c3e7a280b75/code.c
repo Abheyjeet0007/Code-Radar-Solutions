@@ -1,22 +1,42 @@
-#include <stdio.h>
+#include<stdio.h>
 void reverse(int arr[],int str,int end){
-    for(int i = str,j=end;i<j;i++,j--){
-        int temp = arr[i];
-        arr[i]= arr[j];
-        arr[j]=arr[i];
+
+    for(int i=str,j=end;i<j;i++,j--){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
+
 }
 int main(){
     int n;
+    printf("Enter size of array: ");
     scanf("%d",&n);
     int arr[n];
-    int k;
-
     for(int i = 0;i<n;i++){
+        printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
-
     }
-    scanf("%d",&k);
-    reverse(arr[n],k,n-1);
-
+    
+    int x;
+    printf("Enter the position from where you want to reverse the array: ");
+    scanf("%d",&x);
+    if(x==n){
+        for(int i = 0;i<7;i++){
+            printf("%d ",arr[i]);
+        }
+    }
+    else if(x>n){
+        x=x%n;
+    
+    
+ 
+        reverse(arr,0,n-1);
+        reverse(arr,0,x-1);
+        reverse(arr,x,n-1);
+        for(int i = 0;i<n;i++){
+            printf("%d ",arr[i]);
+        }
+}
+    return 0;
 }
