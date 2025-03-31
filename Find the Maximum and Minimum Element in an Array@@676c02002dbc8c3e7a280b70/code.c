@@ -23,5 +23,5 @@ int main(){
             int max =  arr[j];
         }
     }
-    printf("%d",arr[j]);
+    printf("%d",max);
 }
