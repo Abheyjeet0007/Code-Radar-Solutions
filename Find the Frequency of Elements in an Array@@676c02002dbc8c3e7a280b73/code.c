@@ -17,6 +17,6 @@
                     a++;
                 }
             }
-            printf("%d %d\n",temp,a );
         }
+            printf("%d %d\n",temp,a );
     }
