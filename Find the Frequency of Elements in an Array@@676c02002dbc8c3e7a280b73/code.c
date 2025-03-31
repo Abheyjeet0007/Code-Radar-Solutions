@@ -10,9 +10,10 @@
         }
         for(int i = 0;i<n;i++){
         int a = 0;
+        int temp;
             for(int j = i+1;j<n;j++){
                 if(arr[i]==arr[j]){
-                    int temp = arr[i];
+                    temp = arr[i];
                     a++;
                 }
             }
