@@ -12,7 +12,7 @@
         int temp;
         int a = 0;
             for(int j = i+1;j<n;j++){
-                if(arr[i]==arr[j]){
+                if(arr[i]==arr[j] && i!=j){
                     temp = arr[i];
                     a+=1;
                 }
