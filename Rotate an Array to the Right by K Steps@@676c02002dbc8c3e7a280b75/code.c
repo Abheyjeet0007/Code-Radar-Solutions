@@ -10,16 +10,14 @@ void reverse(int arr[],int str,int end){
 }
 int main(){
     int n;
-    printf("Enter size of array: ");
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i<n;i++){
-        printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
     }
     
     int x;
-    printf("Enter the position from where you want to reverse the array: ");
+    
     scanf("%d",&x);
     if(x==n){
         for(int i = 0;i<7;i++){
