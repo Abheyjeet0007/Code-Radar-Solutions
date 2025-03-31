@@ -11,7 +11,7 @@
         for(int i = 0;i<n;i++){
         int temp;
         int a = 0;
-            for(int j = i+1;j<n;j++){
+            for(int j = 0;j<n;j++){
                 if(arr[i]==arr[j] && i!=j){
                     temp = arr[i];
                     a+=1;
