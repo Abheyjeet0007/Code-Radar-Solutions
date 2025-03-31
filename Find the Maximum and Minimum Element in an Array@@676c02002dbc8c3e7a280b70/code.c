@@ -23,5 +23,5 @@ int main(){
             b = arr[j];
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",arr[j]);
 }
